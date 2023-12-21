@@ -30,4 +30,8 @@ class HomeController extends Controller
         $data_tahun = tahun::all();
         return view('home', compact('data_tahun'));
     }
+
+    public function pilih_tahun(){
+
+    }
 }

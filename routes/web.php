@@ -18,4 +18,4 @@ use Illuminate\Support\Facades\Route;
 
 Auth::routes();
 Route::resource('/', HomeController::class);
-
+Route::resource('/home', HomeController::class);
