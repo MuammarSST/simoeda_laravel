@@ -74,7 +74,7 @@
         </nav>
         <div style="background: forestgreen;">
             <h5 style="color:white;text-align: center;font-style: italic;">
-            © 2023, Dikembangkan oleh : Muammar, SST, M.Kom
+            © 2024, Dikembangkan oleh : Muammar, SST, M.Kom
             </h5> 
         </div>
         <main class="py-4"> @yield('content')
