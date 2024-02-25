@@ -27,11 +27,9 @@ class HomeController extends Controller
     public function index()
     {
 
-        $data_tahun = tahun::all();
-        return view('home', compact('data_tahun'));
+       
+        return view('home');
     }
 
-    public function pilih_tahun(){
-
-    }
+   
 }

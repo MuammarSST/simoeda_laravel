@@ -12,7 +12,7 @@
     <link href="../assets/css/material-dashboard.css?v=2.1.2" rel="stylesheet" />
     
 </head>
-<body class="container-fluid" style="background-image: url('../assets/img/bappeda.jpg');background-size: cover;background-position: center;">
+<body class="container-fluid" style="background-image: url('../assets/img/uui.jpg');background-size: cover;background-position: center;">
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm"style="opacity: 0.9;margin-bottom: auto;">
         
@@ -44,9 +44,9 @@
                         @endif
 
                             @if (route::has('register'))
-                        <li class="nav-item">
+                        <!-- <li class="nav-item">
                             <a class="nav-link" href="{{ route('register') }}">{{ __('register') }}</a>
-                        </li>
+                        </li> -->
                         @endif
                         @else
                         <li class="nav-item">
@@ -74,7 +74,7 @@
         </nav>
         <div style="background: forestgreen;">
             <h5 style="color:white;text-align: center;font-style: italic;">
-            © 2024, Dikembangkan oleh : Muammar, SST, M.Kom
+            © 2024, Dikembangkan oleh Direktorat ICT dan Perpustakaan
             </h5> 
         </div>
         <main class="py-4"> @yield('content')

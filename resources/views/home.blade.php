@@ -17,18 +17,6 @@
 
                    
 
-                    <div>
-                        <label class="card-title">Silahkan Pilih Tahunan :</label>
-                        <select class="form-control" name="id_tahun">
-                         
-                        @foreach($data_tahun as $data)
-                          <option "{{ $data->id_tahun }}">{{ $data->tahun }}</option>
-                        @endforeach
-                        </select>
-                        <button type="submit" class="btn btn-success pull-right">
-                        {{ __('Pilih') }}
-                    </button>
-                    </div>
 
 
                 </div>
